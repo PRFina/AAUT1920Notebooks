@@ -4,8 +4,8 @@ Repository containing  exercises for the [AAUT 19/20](http://magistrale.educ.di.
 ## List
 * one vs rest 
 * Decision Tree (DONE)
-* K. Nearest Neighbor (refine)
-* Least Squares (CHECK)
-* SVM (CHECK)
+* K. Nearest Neighbor (miss kernelized knn)
+* Least Squares (DONE)
+* SVM (DON)
 * Clustering (NO)
 * Naive Bayes (NO)
