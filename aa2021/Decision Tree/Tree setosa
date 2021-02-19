@@ -1,8 +1,8 @@
 digraph Tree {
 node [shape=box, style="filled", color="black"] ;
-0 [label="petal length (cm) <= 2.45\nentropy = 0.913\nsamples = 140\nvalue = [94, 46]\nclass = setosa", fillcolor="#f2bf9a"] ;
-1 [label="entropy = 0.0\nsamples = 46\nvalue = [0, 46]\nclass = versicolor", fillcolor="#399de5"] ;
+0 [label="petal length (cm) <= 2.6\nentropy = 0.886\nsamples = 112\nvalue = [78, 34]\nclass = setosa", fillcolor="#f0b88f"] ;
+1 [label="entropy = 0.0\nsamples = 34\nvalue = [0, 34]\nclass = versicolor", fillcolor="#399de5"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="entropy = 0.0\nsamples = 94\nvalue = [94, 0]\nclass = setosa", fillcolor="#e58139"] ;
+2 [label="entropy = 0.0\nsamples = 78\nvalue = [78, 0]\nclass = setosa", fillcolor="#e58139"] ;
 0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
 }
